@@ -1,0 +1,286 @@
+{
+	"info": {
+		"_postman_id": "90477ede-7c30-4d96-b25a-3d8b33605307",
+		"name": "Fiddler_tasks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_method_for_fiddler",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/get_method?name=Me&age=25",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Me"
+						},
+						{
+							"key": "age",
+							"value": "25"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_info-3 _for_fiddler",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "35",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "1000",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Tom",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/user_info_3",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_info-1 _for_fiddler",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "3",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "weight",
+							"value": "1000",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "Tom",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/object_info_1?age=3&weight=11&name=Nike",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "3"
+						},
+						{
+							"key": "weight",
+							"value": "11"
+						},
+						{
+							"key": "name",
+							"value": "Nike"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_info-3 _for_fiddler",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "3",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "weight",
+							"value": "1000",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "Tom",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/object_info_3?age=35&salary=1100&name=Nike",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "35"
+						},
+						{
+							"key": "salary",
+							"value": "1100"
+						},
+						{
+							"key": "name",
+							"value": "Nike"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "object_info-4 _for_fiddler",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "3",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "weight",
+							"value": "1000",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "Tom",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/object_info_4?age=35&salary=2000&name=Nike",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "35"
+						},
+						{
+							"key": "salary",
+							"value": "2000"
+						},
+						{
+							"key": "name",
+							"value": "Nike"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user_info-2 _for_fiddler",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "1000",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Tom",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/user_info_2",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
